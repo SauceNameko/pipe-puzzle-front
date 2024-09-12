@@ -37,6 +37,7 @@ export const useClear = (field, clearField,) => {
 
     const resetClear = () => {
         setIsClear(false);
+        setIntervalFlag(false);
     }
 
     return { isClear, clearText, intervalFlag, resetClear }

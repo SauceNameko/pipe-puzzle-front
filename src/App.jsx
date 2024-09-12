@@ -20,13 +20,13 @@ function App() {
       setIsStart(false);
     }
   }, [intervalFlag]);
-  console.log(isClear);
 
   const reset = () => {
     resetClear();
     resetTime();
     resetField();
   }
+  console.log(isStart);
 
 
   return (

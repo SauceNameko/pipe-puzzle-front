@@ -35,7 +35,7 @@ export const FieldSeen = ({ field, onPush, onStart, time, isStart, clearText }) 
                         ></div>
                     })
                 })}
-                <div className="clearText">{clearText}</div>
+                {/* <div className="clearText">{clearText}</div> */}
 
             </div>
         </>
