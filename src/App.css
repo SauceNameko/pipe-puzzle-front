@@ -1,0 +1,17 @@
+body {
+    position: relative;
+}
+
+.question {
+    width: 60px;
+    height: 60px;
+    background-image: url(./assets/question.png);
+    background-size: 100%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.question:hover {
+    cursor: pointer;
+}
